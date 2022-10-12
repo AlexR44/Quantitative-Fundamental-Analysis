@@ -8,6 +8,7 @@ Historical balance sheets, and income and cashflow statements of several mining 
 
 The technical details of the files included are as follows:
 
+<<<<<<< HEAD
 * A Jupyter Notebook that describes the stock and fundamental data import for exploration, cleanup, and CSV export process. The Pandas Library is used to clean and format your dataset.
 * A PostgresSQL database schema to store the historical data imported.
 * A PostgresSQL query file that summarizes the queries required for analysis. 
@@ -15,3 +16,12 @@ The technical details of the files included are as follows:
 * The illustrations are saved in PNG format for ease of distribution purposes and for inclusion in the final presentation and repo's README.md file.
 * sessionmaker from the sqlalchemy.orm library is imported to confirm connection to the database for query data retrieval.
 * A README.md with a summary of major findings and conclusions.
+=======
+* A Jupyter Notebook that describes the data import process. The Pandas Library is used to clean and format the dataset.
+* A ProgreSQL database schema to store the historical data imported.
+* A progreSQL query file that summarizes the data queries required for analysis. 
+* A Jupyter Notebook that performs and illustrates the final data exploration, cleanup, and analysis using PyViz and Hvplot to create visualizations of data
+* The illustrations are saved in PNG format for ease of distribution purposes and for inclusion in the final presentation and repo's README.md file.
+* A README.md file REPORT with a summary of major findings.
+* A slideshow presentation summarizing the work completed.
+>>>>>>> 899c5da74cdf19e550bd349fb10c8252d58f36d3
