@@ -1,6 +1,6 @@
 # Quantitative Fundamental Analysis of Mining Stocks
 ## Objective
-The analysis notebook included performs a quantitative fundamental analysis of several mining stocks at a microeconomic level by assessing the effectiveness of a mining company's management.The objective is to determine a stock's true value that an investor can compare against the current market price to see whether the security is undervalued or overvalued by other investors.
+The analysis notebooks included perform a quantitative fundamental analysis of several mining stocks at a microeconomic level by attempting to assess the effectiveness of a mining company's management from financial statements.The objective is to determine a stock's true value that an investor can compare against the current market price to see whether the security is undervalued or overvalued by other investors.
 
 Historical balance sheets, and income and cashflow statements of several mining companies are retrieved via API and placed in a ProgeSQL database. The data are subseqquently used to carry out a ratio analysis for each company.
 
