@@ -1,5 +1,5 @@
 ![](https://lundinmining.com/site/assets/files/1/1902_-_chapada_open_pit.1920x640.jpg)
-# Fundamental Quantitative Analysisof Explorer and Producer Mining Companies
+# Fundamental Quantitative Analysis of Explorer and Producer Mining Companies
 ## Motivation
 The analysis notebooks included herein were developed to perform a quantitative fundamental analysis of several mining company stocks at a microeconomic level by attempting to assess the effectiveness of a mining company's management from financial statements.
 
