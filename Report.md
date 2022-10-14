@@ -61,11 +61,11 @@ The answers to these questions are presented in a ranking system developed for t
 
 As shown in the boxplot above for the Q/Q earnings, companies such as FR, KRR, and LUG are quite volatile, with a wide spread into the negative Q/Q region. The results obtained were ranked using the 75th percentile Q/Q earnings for all 12 companies.
 
-### Growth: Q/Q Earnings
+### Growth: Q/Q Cashflows
 
 ![](IMAGES/QoQ%20Cashflows.png)
 
-As shown in the boxplot above for the Q/Q earnings, companies such as EXN, FR, and GEO exhibit larger negative Q/Q changes in cashflow outliers than any of the other companies. The results obtained were ranked using the 75th percentile Q/Q earnings for all 12 companies.
+As shown in the boxplot above for the Q/Q cashflows, companies such as EXN, FR, and GEO exhibit larger negative Q/Q changes in cashflow outliers than any of the other companies. The results obtained were ranked using the 75th percentile Q/Q earnings for all 12 companies.
 
 In addition to the Q/Q cashflow analysis, it was nterest to investigate if any correlation exists between the changes in commodity prices (gold, silver) and those in the cashflows of individual companies. A correlation with changes in bond ETF was also assessed. 
 
@@ -88,22 +88,6 @@ The more established major mining company Barrick also exhibits the same pattern
 **For Barrick Gold**
 ![](IMAGES/Barrick%20DtoE.png)
 
-The results obtained were ranked using the 75th percentile Q/Q earnings for all 12 companies.
-
-### Solvency: D/E
-
-The D/E ratios were used to measure of the degree to which any one company is financing its operations with debt rather than its own resources. 
-
-As shown below, AYA exhibits low D/E ratios begining in 2018 but had considerably higher values between 2013 and 2018. 
-
-**For AYA Gold & Silver**
-![](IMAGES/AYA%20DtoE.png)
-
-The more established major mining company Barrick also exhibits the same pattern (see below) but with ratios reaching a maximum of approximately 2.8. 
-
-**For Barrick Gold**
-![](IMAGES/Barrick%20DtoE.png)
-
 In contrast, EXN (Excellon Gold) appears to be a poor performer by exhibiting a negative D/E ratio (from having negative equity) -- see below.
 
 **For Excellon Gold**
@@ -120,7 +104,6 @@ In the figure below, AYA is shown to consistently have quick ratios > 1 begining
 **For AYA Gold & Silver**
 ![](IMAGES/QR%20AYA.png)
 
-In the figure below, AYA is shown to consistently have quick ratios > 1 begining in 2018 but had considerably lower values (even negative - not shown in log scale) between 2013 and 2018. Note that this is the inverse of the observations made for the D/E ratio. 
 
 Although still greater than 1, the quick ratios for Barrick (see below) are much lower than those obtained for junior companies like AYA due to the larger amount of current liabilities.
 
@@ -135,7 +118,7 @@ The price-to-cash flow (P/CF) ratio is a multiple that compares a company's mark
 The P/CF multiple works well for companies that have large non-cash expenses such as depreciation. A low P/CF multiple may imply that a stock is undervalued in the market.
 Some analysts prefer P/CF over price-to-earnings (P/E) since earnings can be more easily manipulated than cash flows.
 
-(https://www.investopedia.com/terms/p/price-to-cash-flowratio.asp#:~:text=Key%20Takeaways-,The%20price%2Dto%2Dcash%20flow%20(P%2FCF),cash%20expenses%20such%20as%20depreciation.)
+Source: (https://www.investopedia.com/terms/p/price-to-cash-flowratio.asp#:~:text=Key%20Takeaways-,The%20price%2Dto%2Dcash%20flow%20(P%2FCF),cash%20expenses%20such%20as%20depreciation.)
 
 The 12 trailing month (TTM) cash flows per share were calculated for calculation of the ratio. 
 
@@ -149,7 +132,7 @@ In contrast the P/CFS ratios for Barrick (see below) are much closer to unity, i
 **For Barrick Gold**
 ![](IMAGES/PoCFS%20Barrick.png)
 
-It was also of interest to observe if a correlation exists between the Cashflow per share and the stock price for each company. As shown in the heatmap below, a faily strong correlation exists for the AYA (R=0.85) and SIL (R=0.72).
+It was also of interest to observe if a correlation exists between the Cashflow per share and the stock price for each company. As shown in the heatmap below, a strong correlation exists for the AYA (R=0.85) and SIL (R=0.72).
 
 ![](IMAGES/PtoCFS%20Corr.png)
 
@@ -157,14 +140,14 @@ It was also of interest to observe if a correlation exists between the Cashflow 
 
 ![](IMAGES/AYA%20and%20SIL%20PCFS.png)
 
-Howevere, it was is noted that if a correlation between the change in CF/S and change in stock price is evaluated, the results are much poorer (see below). This comes as a result of the lag that is observed between the time a stick price change begins, and the subsequent change in cashflow.
+Howevere, it was is noted that if a correlation between the change in CF/S and change in stock price is evaluated, the results are much poorer (see below). This comes as a result of the lag that is observed between the time a stock price change begins, and the subsequent change in cashflow.
 
 ![](IMAGES/AYA%20and%20SIL%20delta%20PCFS.png)
 
 ![](IMAGES/AYA%20and%20SIL%20delta%20PCFS%20scatter.png)
 
 ## Conclusions
-Based on the ranking system established, the two junior companies MAG silver and Aya Gold & Silver are considered as the top performers of the group, followed by PAAS, AYA, and Barrick.
+Based on the ranking system established, the two junior companies MAG silver and SIL are considered as the top performers of the group, followed by PAAS, AYA, and Barrick.
 
 It is noted that MAG and SIL have recently begun their production stage, and as such have growth potential, as seen in their income statements. Furthermore, their stocks are currently undervalued based on the PCFS assessment performed above.
 
